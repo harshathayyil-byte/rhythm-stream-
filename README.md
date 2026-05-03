@@ -43,7 +43,7 @@ A vibrant, modern music streaming platform built with React (TypeScript), FastAP
    ```bash
    npm run dev
    ```
-   The frontend will be running at `https://localhost:5173`.
+   The frontend will be running at `https://localhost:5174`.
 
 ## Architecture
 - **Deezer API Proxy:** The backend acts as a bridge to the Deezer API to handle music metadata and avoid CORS issues.

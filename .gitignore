@@ -1,0 +1,21 @@
+# Web dependencies (massive folders you don't want on GitHub)
+node_modules/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment variables (where your Deezer API keys/ARL tokens live!)
+.env
+
+# Downloads (if you used yt-dlp to download actual music files)
+downloads/
+*.mp3
+*.m4a
+*.flac
+
+# System files
+.DS_Store
+Thumbs.db

@@ -18,7 +18,7 @@ A vibrant, modern music streaming platform built with React (TypeScript), FastAP
 ### 1. Backend Setup
 1. Navigate to the `backend` directory:
    ```bash
-   cd backend
+   cd rhythm-stream/backend
    ```
 2. Install dependencies:
    ```bash
@@ -33,7 +33,7 @@ A vibrant, modern music streaming platform built with React (TypeScript), FastAP
 ### 2. Frontend Setup
 1. Navigate to the `frontend` directory:
    ```bash
-   cd frontend
+   cd rhythm-stream/frontend
    ```
 2. Install dependencies:
    ```bash

@@ -43,9 +43,29 @@ A vibrant, modern music streaming platform built with React (TypeScript), FastAP
    ```bash
    npm run dev
    ```
-   The frontend will be running at `https://localhost:5174`.
+   The frontend will be running at `https://localhost:5173`.
 
 ## Architecture
 - **Deezer API Proxy:** The backend acts as a bridge to the Deezer API to handle music metadata and avoid CORS issues.
 - **Persistent Player:** A global audio state ensures music continues playing as you navigate.
 - **Vibrant Design:** Pure Vanilla CSS implementation of modern design trends like Glassmorphism.
+
+
+
+## More Specifically/Another Way
+1. Navigate to a New terminal(Backend Terminal)
+   ```bash
+     cd rhythm-stream/backend
+   ```
+2. Start the server
+   ```bash
+    python -m uvicorn main:app --reload --ssl-keyfile ../key.pem --ssl-certfile ../cert.pem
+   ```
+3. Navigate to Another terminal (Frontend Terminal)
+   ```bash
+   cd rhythm-stream/frontend
+   ```
+3. Run it!
+   ```bash
+   npm run dev 
+   ```
